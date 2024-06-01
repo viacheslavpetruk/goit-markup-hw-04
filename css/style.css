@@ -206,6 +206,18 @@ img {
   flex-basis: calc((100% - 3 * 24px) / 4);
   align-items: center;
 }
+.features-icon-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 100px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background: #f4f4fd;
+  margin-bottom: 8px;
+  width: 264px;
+  height: 112px;
+}
 .features-subtitle {
   color: #2e2f42;
   font-size: 20px;
