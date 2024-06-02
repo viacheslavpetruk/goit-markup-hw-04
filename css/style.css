@@ -73,8 +73,7 @@ img {
 }
 
 .nav-link {
-  /* color: #2e2f42; */
-  color: #404bbf;
+  color: #434455;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -89,8 +88,9 @@ img {
 .nav-link:focus {
   color: #404bbf;
 }
-.psevdo {
+.nav-link.psevdo {
   display: flex;
+  color: #404bbf;
 }
 .nav-link.psevdo::after {
   width: 100%;
@@ -242,7 +242,7 @@ img {
 /* ------------------------------- */
 /* -----------team---------------- */
 .team-section {
-  width: 1440px;
+  /* width: 1440px; */
   padding: 120px 0;
   margin: 0 auto;
   background-color: #f4f4fd;
@@ -380,6 +380,7 @@ img {
   margin: 0;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 .portfolio-cover {
   position: relative;
